@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  height:100%;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -80px; 
+  background-color: #089ECE;
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+footer, .wrapper:after {
+  height: 80px;
+}
+footer {
+  background: #8B2929;
+}
